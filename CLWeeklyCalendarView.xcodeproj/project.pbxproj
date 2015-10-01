@@ -21,6 +21,23 @@
 		391EEB951A39118400748ADA /* UIColor+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB8E1A39118400748ADA /* UIColor+CL.m */; };
 		391EEB961A39118400748ADA /* CLWeeklyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB901A39118400748ADA /* CLWeeklyCalendarView.m */; };
 		391EEB991A39184C00748ADA /* UIImage+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB981A39184C00748ADA /* UIImage+CL.m */; };
+		BC394C3C1BBD26C700E00D26 /* CLWeeklyCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = BC394C3B1BBD26C700E00D26 /* CLWeeklyCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC394C401BBD26C700E00D26 /* CLWeeklyCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC394C391BBD26C700E00D26 /* CLWeeklyCalendar.framework */; };
+		BC394C411BBD26C700E00D26 /* CLWeeklyCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC394C391BBD26C700E00D26 /* CLWeeklyCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BC394C461BBD274000E00D26 /* CLWeeklyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB901A39118400748ADA /* CLWeeklyCalendarView.m */; settings = {ASSET_TAGS = (); }; };
+		BC394C471BBD274700E00D26 /* CLWeeklyCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EEB8F1A39118400748ADA /* CLWeeklyCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC394C481BBD275900E00D26 /* DailyCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EEB841A39118400748ADA /* DailyCalendarView.h */; settings = {ASSET_TAGS = (); }; };
+		BC394C491BBD275900E00D26 /* DailyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB851A39118400748ADA /* DailyCalendarView.m */; settings = {ASSET_TAGS = (); }; };
+		BC394C4A1BBD276200E00D26 /* DayTitleLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EEB861A39118400748ADA /* DayTitleLabel.h */; settings = {ASSET_TAGS = (); }; };
+		BC394C4B1BBD276200E00D26 /* DayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB871A39118400748ADA /* DayTitleLabel.m */; settings = {ASSET_TAGS = (); }; };
+		BC394C4C1BBD277600E00D26 /* NSDate+CL.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EEB891A39118400748ADA /* NSDate+CL.h */; settings = {ASSET_TAGS = (); }; };
+		BC394C4D1BBD277600E00D26 /* NSDate+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB8A1A39118400748ADA /* NSDate+CL.m */; settings = {ASSET_TAGS = (); }; };
+		BC394C4E1BBD277600E00D26 /* NSDictionary+CL.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EEB8B1A39118400748ADA /* NSDictionary+CL.h */; settings = {ASSET_TAGS = (); }; };
+		BC394C4F1BBD277600E00D26 /* NSDictionary+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB8C1A39118400748ADA /* NSDictionary+CL.m */; settings = {ASSET_TAGS = (); }; };
+		BC394C501BBD277600E00D26 /* UIColor+CL.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EEB8D1A39118400748ADA /* UIColor+CL.h */; settings = {ASSET_TAGS = (); }; };
+		BC394C511BBD277600E00D26 /* UIColor+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB8E1A39118400748ADA /* UIColor+CL.m */; settings = {ASSET_TAGS = (); }; };
+		BC394C521BBD277600E00D26 /* UIImage+CL.h in Headers */ = {isa = PBXBuildFile; fileRef = 391EEB971A39184C00748ADA /* UIImage+CL.h */; settings = {ASSET_TAGS = (); }; };
+		BC394C531BBD277600E00D26 /* UIImage+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EEB981A39184C00748ADA /* UIImage+CL.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +48,28 @@
 			remoteGlobalIDString = 391EEB591A39112E00748ADA;
 			remoteInfo = CLWeeklyCalendarView;
 		};
+		BC394C3E1BBD26C700E00D26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391EEB521A39112E00748ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC394C381BBD26C700E00D26;
+			remoteInfo = CLWeeklyCalendar;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC394C451BBD26C700E00D26 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC394C411BBD26C700E00D26 /* CLWeeklyCalendar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		391EEB5A1A39112E00748ADA /* CLWeeklyCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLWeeklyCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +99,9 @@
 		391EEB901A39118400748ADA /* CLWeeklyCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLWeeklyCalendarView.m; sourceTree = "<group>"; };
 		391EEB971A39184C00748ADA /* UIImage+CL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CL.h"; sourceTree = "<group>"; };
 		391EEB981A39184C00748ADA /* UIImage+CL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CL.m"; sourceTree = "<group>"; };
+		BC394C391BBD26C700E00D26 /* CLWeeklyCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLWeeklyCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC394C3B1BBD26C700E00D26 /* CLWeeklyCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLWeeklyCalendar.h; sourceTree = "<group>"; };
+		BC394C3D1BBD26C700E00D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +109,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC394C401BBD26C700E00D26 /* CLWeeklyCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		391EEB701A39112E00748ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC394C351BBD26C700E00D26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,6 +135,7 @@
 			children = (
 				391EEB5C1A39112E00748ADA /* CLWeeklyCalendarView */,
 				391EEB761A39112E00748ADA /* CLWeeklyCalendarViewTests */,
+				BC394C3A1BBD26C700E00D26 /* CLWeeklyCalendar */,
 				391EEB5B1A39112E00748ADA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +145,7 @@
 			children = (
 				391EEB5A1A39112E00748ADA /* CLWeeklyCalendarView.app */,
 				391EEB731A39112E00748ADA /* CLWeeklyCalendarViewTests.xctest */,
+				BC394C391BBD26C700E00D26 /* CLWeeklyCalendar.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,7 +221,34 @@
 			path = Misc;
 			sourceTree = "<group>";
 		};
+		BC394C3A1BBD26C700E00D26 /* CLWeeklyCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				BC394C3B1BBD26C700E00D26 /* CLWeeklyCalendar.h */,
+				BC394C3D1BBD26C700E00D26 /* Info.plist */,
+			);
+			path = CLWeeklyCalendar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BC394C361BBD26C700E00D26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC394C4E1BBD277600E00D26 /* NSDictionary+CL.h in Headers */,
+				BC394C3C1BBD26C700E00D26 /* CLWeeklyCalendar.h in Headers */,
+				BC394C4C1BBD277600E00D26 /* NSDate+CL.h in Headers */,
+				BC394C4A1BBD276200E00D26 /* DayTitleLabel.h in Headers */,
+				BC394C471BBD274700E00D26 /* CLWeeklyCalendarView.h in Headers */,
+				BC394C521BBD277600E00D26 /* UIImage+CL.h in Headers */,
+				BC394C481BBD275900E00D26 /* DailyCalendarView.h in Headers */,
+				BC394C501BBD277600E00D26 /* UIColor+CL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		391EEB591A39112E00748ADA /* CLWeeklyCalendarView */ = {
@@ -180,10 +258,12 @@
 				391EEB561A39112E00748ADA /* Sources */,
 				391EEB571A39112E00748ADA /* Frameworks */,
 				391EEB581A39112E00748ADA /* Resources */,
+				BC394C451BBD26C700E00D26 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BC394C3F1BBD26C700E00D26 /* PBXTargetDependency */,
 			);
 			name = CLWeeklyCalendarView;
 			productName = CLWeeklyCalendarView;
@@ -208,6 +288,24 @@
 			productReference = 391EEB731A39112E00748ADA /* CLWeeklyCalendarViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BC394C381BBD26C700E00D26 /* CLWeeklyCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC394C441BBD26C700E00D26 /* Build configuration list for PBXNativeTarget "CLWeeklyCalendar" */;
+			buildPhases = (
+				BC394C341BBD26C700E00D26 /* Sources */,
+				BC394C351BBD26C700E00D26 /* Frameworks */,
+				BC394C361BBD26C700E00D26 /* Headers */,
+				BC394C371BBD26C700E00D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLWeeklyCalendar;
+			productName = CLWeeklyCalendar;
+			productReference = BC394C391BBD26C700E00D26 /* CLWeeklyCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,6 +321,9 @@
 					391EEB721A39112E00748ADA = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 391EEB591A39112E00748ADA;
+					};
+					BC394C381BBD26C700E00D26 = {
+						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
 			};
@@ -241,6 +342,7 @@
 			targets = (
 				391EEB591A39112E00748ADA /* CLWeeklyCalendarView */,
 				391EEB721A39112E00748ADA /* CLWeeklyCalendarViewTests */,
+				BC394C381BBD26C700E00D26 /* CLWeeklyCalendar */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +359,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		391EEB711A39112E00748ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC394C371BBD26C700E00D26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,6 +400,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC394C341BBD26C700E00D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC394C511BBD277600E00D26 /* UIColor+CL.m in Sources */,
+				BC394C4F1BBD277600E00D26 /* NSDictionary+CL.m in Sources */,
+				BC394C4B1BBD276200E00D26 /* DayTitleLabel.m in Sources */,
+				BC394C491BBD275900E00D26 /* DailyCalendarView.m in Sources */,
+				BC394C461BBD274000E00D26 /* CLWeeklyCalendarView.m in Sources */,
+				BC394C4D1BBD277600E00D26 /* NSDate+CL.m in Sources */,
+				BC394C531BBD277600E00D26 /* UIImage+CL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -298,6 +421,11 @@
 			isa = PBXTargetDependency;
 			target = 391EEB591A39112E00748ADA /* CLWeeklyCalendarView */;
 			targetProxy = 391EEB741A39112E00748ADA /* PBXContainerItemProxy */;
+		};
+		BC394C3F1BBD26C700E00D26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC394C381BBD26C700E00D26 /* CLWeeklyCalendar */;
+			targetProxy = BC394C3E1BBD26C700E00D26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -453,6 +581,54 @@
 			};
 			name = Release;
 		};
+		BC394C421BBD26C700E00D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CLWeeklyCalendar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.emiliopavia.CLWeeklyCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC394C431BBD26C700E00D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CLWeeklyCalendar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.emiliopavia.CLWeeklyCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,12 +648,22 @@
 				391EEB7F1A39112E00748ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		391EEB801A39112E00748ADA /* Build configuration list for PBXNativeTarget "CLWeeklyCalendarViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				391EEB811A39112E00748ADA /* Debug */,
 				391EEB821A39112E00748ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC394C441BBD26C700E00D26 /* Build configuration list for PBXNativeTarget "CLWeeklyCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC394C421BBD26C700E00D26 /* Debug */,
+				BC394C431BBD26C700E00D26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
